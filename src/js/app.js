@@ -45,22 +45,22 @@ function render(variables = {}) {
             }">
               ${
                 variables.twitter
-                  ? `<li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>`
+                  ? `<li><a href="https://twitter.com/${variables.twitter}"><i class="fa-brands fa-square-twitter"></i></a></li>`
                   : ""
               }
               ${
                 variables.github
-                  ? `<li><a href="https://github.com/${variables.github}"><i class="fab fa-github"></i></a></li>`
+                  ? `<li><a href="https://github.com/${variables.github}"><i class="fa-brands fa-github"></i></a></li>`
                   : ""
               }
               ${
                 variables.linkedin
-                  ? `<li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>`
+                  ? `<li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fa-brands fa-linkedin"></i></i></a></li>`
                   : ""
               }
               ${
                 variables.instagram
-                  ? `<li><a href="https://instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>`
+                  ? `<li><a href="https://instagram.com/${variables.instagram}"><i class="fa-brands fa-square-instagram"></i></i></a></li>`
                   : ""
               }
             </ul>
